@@ -1,0 +1,143 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+
+  body{
+    background-color: rgb(212, 225, 225);
+  }
+
+ 
+   
+
+    
+
+
+.heading{
+  display: grid;
+  color: rgb(220, 220, 220);
+  height: 125px;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+}
+.navi{
+  color: black;
+  color: rgb(254, 252, 250);
+  display: grid;
+}
+
+
+.hero{
+  display: grid;
+  background-image: url(https://images.pexels.com/photos/4506937/pexels-photo-4506937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 1200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.aboutme{0
+  display: grid;
+  font-family: 'Slater Industrial', sans-serif;
+  justify-content: center;
+  gap: 1em;
+  border-left: 1px;
+  border-style: solid;
+  font-size: 39px;
+}
+
+
+.apps{
+  display: grid;
+  color:white;
+  gap: 1em;
+  padding: 1em;
+ background-repeat: no-repeat;
+  
+
+  
+  
+  
+}
+
+
+.app1{
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg);
+  object-fit: cover;
+  height: 20em;;
+  width: auto;
+  border-style: solid;
+  display: grid;
+  grid-column: 1/3;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  background-size: cover;
+  
+  
+}
+
+.app2{
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2020/02/03/00/12/fiber-4814456__340.jpg);
+  grid-column: 1;
+  height: 10em;;
+  width: auto;
+  border-style: solid;
+  display: grid;
+  padding: 1em;
+  background-repeat: no-repeat;
+}
+
+.app3{
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/31/08/35/space-port-3120607__340.jpg);
+  image-orientation: from-image;
+  height: 10em;;
+  width: auto;
+  display: grid;
+  grid-column: 2;
+  border-style: solid;
+  padding: 1em;
+  background-repeat: no-repeat;
+}
+
+.app4{
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2020/05/22/19/35/tech-5206825_960_720.jpg);
+  height: 10em;;
+  width: auto;
+  display: grid;
+  border-style: solid;
+  padding: 1em;
+  background-repeat: no-repeat;
+}
+
+.app5{
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/12/20/27/macro-1452987_960_720.jpg);
+  height: 10em;;
+  width: 50%;
+  display: grid;
+  border-style: solid;
+  width: auto;
+  padding: 1em;
+  background-repeat: no-repeat;
+}
+
+
+
+footer{
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  height: 10em;
+}
+
